@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assert/bg.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: Book Antiqua;
+    font-size: 20px;
+    font-style: italic;
+    color: #a05858;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    color: #851a1a;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial;
+    color: #a05858;
+    margin-top: 10px;
+}
+
+img {
+    border: none;
+}
+
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.shuoming {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.shuoming dt {
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.shuoming dd {
+    line-height: 20px;
+    padding: 5px 20px;
+}
+
+/* qqshop focus */
+.foc_img {
+    width: 980px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+}
+
+.foc_img ul {
+    height: 380px;
+    position: absolute;
+}
+
+.foc_img ul li {
+    float: left;
+    width: 980px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+}
+
+.foc_img ul li div {
+    position: absolute;
+    overflow: hidden;
+}
+
+.foc_img .btnBg {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    background: #000;
+}
+
+.foc_img .btn {
+    position: absolute;
+    width: 780px;
+    height: 10px;
+    padding: 5px 10px;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+.foc_img .btn span {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 25px;
+    height: 10px;
+    _font-size: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.foc_img .btn span.on {
+    background: #fff;
+}
+
+.foc_img .preNext {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    background: url(img/sprite.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.foc_img .pre {
+    left: 0;
+}
+
+.foc_img .next {
+    right: 0;
+    background-position: right top;
+}
+
+
+.container {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head {
+    width: 980px;
+    height: 100px;
+}
+
+.head img {
+    float: left;
+}
+
+.headTop {
+    width: 330px;
+    height: 26px;
+}
+
+.headTop a {
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 11px;
+    margin-left: 7px;
+    border: none;
+    color: #f1bebe;
+}
+
+.rightBox {
+    width: 330px;
+    height: 100px;
+    float: right;
+    margin-right: 12px;
+}
+
+.mainMenu {
+    width: 318px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 10px;
+}
+
+.search {
+    width: 404px;
+    height: 34px;
+    float: left;
+    margin-top: 54px;
+    margin-left: 30px;
+}
+
+.nav {
+    width: 980px;
+    height: 52px;
+    background-image: url(images/mainnav_28.png);
+    background-repeat: no-repeat;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    font-family: Chaparral Pro;
+    color: #CCC;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: #FFF;
+}
+
+.banner {
+    width: 980px;
+    height: 330px;
+}
+
+.line {
+    margin-top: 10px;
+    width: 980px;
+}
+
+.showBar {
+    width: 980px;
+    height: 390px;
+    margin-top: 10px;
+    background-image: url(images/aroma_News_sidebar_03.png);
+    background-repeat: no-repeat;
+}
+
+.showNews {
+    width: 200px;
+    height: 390px;
+    float: left;
+    margin-left: 24px;
+}
+
+.showNews a {
+    width: 200px;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.showPrivateLabel a {
+    width: 200px;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.showNewProducts a {
+    width: 200px;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.showAntiCellulite a {
+    width: 200px;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.showPrivateLabel {
+    width: 200px;
+    height: 390px;
+    float: left;
+    margin-left: 43px;
+}
+
+.showNewProducts {
+    width: 200px;
+    height: 390px;
+    float: left;
+    margin-left: 43px;
+}
+
+.showAntiCellulite {
+    width: 200px;
+    height: 390px;
+    float: left;
+    margin-left: 43px;
+}
+
+.showFirst {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/Aroma_Home-page_35.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.showSecond {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/Aroma_Home-page_30.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.showThird {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/Aroma_Home-page_38.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.showFourth {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/Aroma_Home-page_32.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.moreBox {
+    width: 50px;
+    height: 11px;
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 980px;
+    height: 260px;
+    margin-top: 10px;
+    background-image: url(images/Email_sandbar_03.png);
+    background-repeat: no-repeat;
+}
+
+.emailUs {
+    width: 486px;
+    height: 192px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.feedBack {
+    width: 330px;
+    height: 192px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.emailUs span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #851a1a;
+    font-family: Book Antiqua;
+}
+
+.feedBack span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #851a1a;
+    font-family: Book Antiqua;
+}
+
+.feedBack a {
+    font-size: 20px;
+    color: #ca2727;
+    font-family: Book Antiqua;
+}
+
+.mail {
+    width: 90px;
+    height: 90px;
+    background-image: url(images/Aroma_Home-page_55.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 54px;
+}
+
+.fontBox {
+    width: 350px;
+    height: 192px;
+    float: left;
+}
+
+.cutLine {
+    margin-top: 20px;
+    ;
+    margin-left: 45px;
+    float: left;
+}
+
+.read {
+    width: 132px;
+    height: 16px;
+    ling-height: 16px;
+    margin-left: 200px;
+}
+
+.footer {
+    width: 980px;
+    height: 375px;
+    margin-top: 10px;
+}
+
+.usefull ul {
+    font-family: Arial;
+    font-size: 18px;
+    color: #851a1a;
+    font-weight: bold;
+    line-height: 30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.usefull a {
+    font-family: Arial;
+    font-size: 12px;
+    color: green;
+    line-height: 20px;
+}
+
+.lastLogo {
+    width: 150px;
+    height: 34px;
+    background-image: url(images/last-logo_03.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    float: right;
+    margin-top: 100px;
+}
+
+.foot {
+    width: 980px;
+    height: 36px;
+    margin-top: 30px;
+    background-color: #282828;
+}
+
+.three {
+    width: 360px;
+    height: 18px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+.three a {
+    color: #a1a1a1;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.web {
+    width: 277px;
+    height: 20px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 50px;
+}
+
+.web a {
+    color: #a1a1a1;
+    font-size: 16px;
+    font-family: Arial;
+}

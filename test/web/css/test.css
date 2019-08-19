@@ -1,0 +1,40 @@
+.body-incell{
+    width: 1920px;
+    height: 1080px;
+    background: url("../assert/bg-color-body.png") no-repeat;
+    background-color: rgba(13, 42, 67, 0);   
+    transform: scale(0.851852);
+    transform-origin: left top;
+    margin-left: 142.222px;
+    background-position: 142.222px top;
+    background-size: 85.1852% 100%
+}
+.container_fluid {
+
+}
+
+.col-3 {
+    border-width: 32px 37px;
+    background-color: rgba(220, 38, 38, 0.2);
+    border-image: url(../assert/border.png)
+}
+
+.title_container {
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px 16px 0px 0px;
+    overflow: visible
+}
+
+.title_signal {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: normal;
+    vertical-align: super;
+    font-family: Microsoft Yahei
+}
